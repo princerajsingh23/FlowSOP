@@ -1,0 +1,168 @@
+[
+  {
+    "id": "sop_order_processing",
+    "title": "Order Processing",
+    "shift": "Workday",
+    "assignee": "Aarav Mehta",
+    "role": "Fulfillment Lead",
+    "description": "End-to-end customer order verification, quality inspection, packing, and dispatch.",
+    "updatedAt": "2026-11-22T19:57:40.259Z",
+    "items": [
+      {
+        "id": "step_op_1",
+        "order": 1,
+        "title": "Verify payment confirmation in gateway",
+        "note": "Match transaction ID with order invoice",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_op_2",
+        "order": 2,
+        "title": "Check inventory availability in bin locations",
+        "note": "Confirm SKU count before picking",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_op_3",
+        "order": 3,
+        "title": "Prepare order items at packing station",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_op_4",
+        "order": 4,
+        "title": "Perform two-point quality check",
+        "note": "Inspect packaging seal and item condition",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_op_5",
+        "order": 5,
+        "title": "Pack order with protective insert and invoice",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_op_6",
+        "order": 6,
+        "title": "Dispatch with courier manifest scan",
+        "completed": false,
+        "completedAt": null
+      }
+    ]
+  },
+  {
+    "id": "sop_morning_opening",
+    "title": "Morning Opening Checklist",
+    "shift": "Morning",
+    "assignee": "Priya Nair",
+    "role": "Store Supervisor",
+    "description": "Daily opening readiness, POS verification, staff shift briefing, and shelf check.",
+    "updatedAt": "2026-11-22T19:57:40.259Z",
+    "items": [
+      {
+        "id": "step_mo_1",
+        "order": 1,
+        "title": "Unlock facility and disarm security panel",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_mo_2",
+        "order": 2,
+        "title": "Boot POS terminals and verify cash drawer float",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_mo_3",
+        "order": 3,
+        "title": "Run morning inventory spot check on top 10 SKUs",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_mo_4",
+        "order": 4,
+        "title": "Confirm staff shift assignments and workstation readiness",
+        "completed": false,
+        "completedAt": null
+      }
+    ]
+  },
+  {
+    "id": "sop_closing_procedures",
+    "title": "Closing & Inventory Reconciliation",
+    "shift": "Closing",
+    "assignee": "Rohan Kulkarni",
+    "role": "Shift Manager",
+    "description": "End-of-day cash reconciliation, stock ledger update, and daily operations report.",
+    "updatedAt": "2026-11-22T19:57:40.259Z",
+    "items": [
+      {
+        "id": "step_cl_1",
+        "order": 1,
+        "title": "Reconcile daily sales receipts against POS summary",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_cl_2",
+        "order": 2,
+        "title": "Log damaged or returned inventory items",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_cl_3",
+        "order": 3,
+        "title": "Sanitize workstations and power down non-essential equipment",
+        "completed": false,
+        "completedAt": null
+      },
+      {
+        "id": "step_cl_4",
+        "order": 4,
+        "title": "Submit daily manager summary before lockup",
+        "completed": false,
+        "completedAt": null
+      }
+    ]
+  },
+  {
+    "id": "sop_onboarding_training",
+    "title": "New Employee SOP Training",
+    "shift": "Always On",
+    "assignee": "Neha Sharma",
+    "role": "Operations Trainer",
+    "description": "Standardized onboarding modules for customer service etiquette and refund handling.",
+    "updatedAt": "2026-11-22T19:57:40.259Z",
+    "items": [
+      {
+        "id": "step_tr_1",
+        "order": 1,
+        "title": "Review approved refund & exchange policy threshold",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_tr_2",
+        "order": 2,
+        "title": "Shadow one full Order Processing workflow run",
+        "completed": true,
+        "completedAt": "2026-11-22T19:57:40.259Z"
+      },
+      {
+        "id": "step_tr_3",
+        "order": 3,
+        "title": "Complete supervised closing inventory log",
+        "completed": false,
+        "completedAt": null
+      }
+    ]
+  }
+]

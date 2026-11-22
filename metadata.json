@@ -1,0 +1,6 @@
+{
+  "name": "FlowSOP — Operations & Checklist Platform",
+  "description": "Turn business knowledge into intelligent workflows, structured SOPs, and live executable team checklists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
